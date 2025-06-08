@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|c:\\users\\admin\\desktop\\sistemamatricula\\sistema_matricula\\sistema_matricula\\vistas\\frmmatriculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|solutionrelative:sistema_matricula\\vistas\\frmmatriculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\sistema_matricula\\vistas\\frmmatriculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|solutionrelative:sistema_matricula\\vistas\\frmmatriculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\sistema_matricula\\modelos\\modelos_matriculados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|solutionrelative:sistema_matricula\\modelos\\modelos_matriculados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\sistema_matricula\\modelos\\modelos_grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|solutionrelative:sistema_matricula\\modelos\\modelos_grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\sistema_matricula\\vistas\\frmgrupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|solutionrelative:sistema_matricula\\vistas\\frmgrupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\sistema_matricula\\vistas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|solutionrelative:sistema_matricula\\vistas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\sistema_matricula\\vistas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D9022B2-AFB2-4720-9182-B8A85B0A6504}|Sistema_Matricula\\Sistema_Matricula.csproj|solutionrelative:sistema_matricula\\vistas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modelos_grupos.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Modelos\\Modelos_grupos.cs",
+              "RelativeDocumentMoniker": "Sistema_Matricula\\Modelos\\Modelos_grupos.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Modelos\\Modelos_grupos.cs",
+              "RelativeToolTip": "Sistema_Matricula\\Modelos\\Modelos_grupos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:56:42.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmGrupos.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\frmGrupos.cs",
+              "RelativeDocumentMoniker": "Sistema_Matricula\\Vistas\\frmGrupos.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\frmGrupos.cs",
+              "RelativeToolTip": "Sistema_Matricula\\Vistas\\frmGrupos.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswLUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:55:52.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Modelos_Matriculados.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Modelos\\Modelos_Matriculados.cs",
+              "RelativeDocumentMoniker": "Sistema_Matricula\\Modelos\\Modelos_Matriculados.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Modelos\\Modelos_Matriculados.cs",
+              "RelativeToolTip": "Sistema_Matricula\\Modelos\\Modelos_Matriculados.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:30:57.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMatriculas.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\frmMatriculas.cs",
+              "RelativeDocumentMoniker": "Sistema_Matricula\\Vistas\\frmMatriculas.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\frmMatriculas.cs",
+              "RelativeToolTip": "Sistema_Matricula\\Vistas\\frmMatriculas.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswKsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:12:07.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMatriculas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\frmMatriculas.cs",
+              "RelativeDocumentMoniker": "Sistema_Matricula\\Vistas\\frmMatriculas.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\frmMatriculas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_Matricula\\Vistas\\frmMatriculas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:08:12.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistema_Matricula\\Vistas\\Form1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_Matricula\\Vistas\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:32:33.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistema_Matricula\\Vistas\\Form1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\SistemaMatricula\\Sistema_Matricula\\Sistema_Matricula\\Vistas\\Form1.cs",
+              "RelativeToolTip": "Sistema_Matricula\\Vistas\\Form1.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwIQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:10:02.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
