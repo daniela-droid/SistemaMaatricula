@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sistema_Matricula.Modelos;
 
 namespace Sistema_Matricula.Controladores
 {
@@ -17,33 +18,16 @@ namespace Sistema_Matricula.Controladores
             DataTable rpt = new DataTable();
             try
             {
-              
-
-                using (SqlConnection sqlcon = new SqlConnection(conexion.cn))
+               using (SqlConnection sqlcon = new SqlConnection(conexion.cn))
                 {
-                    //sqlcon.Open();
-                    //using (SqlCommand cmd = new SqlCommand(Query, sqlcon))
-                    //{
-                    //    cmd.CommandType = CommandType.StoredProcedure;
-                    //    cmd.Parameters.AddWithValue("@textoBuscar", Texto);
-                    //    using (SqlDataAdapter sqldt = new SqlDataAdapter(cmd))
-                    //    {
-                    //        sqldt.Fill(rpt);
-                    //    }
-                    //}
-                    //sqlcon.Dispose();
-                 
-                        SqlCommand cmd = new SqlCommand("rep_matriculas_general", sqlcon);
+                    SqlCommand cmd = new SqlCommand("rep_matriculas_general", sqlcon);
                         cmd.CommandType = CommandType.StoredProcedure;
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
                         DataTable dt = new DataTable();
                         da.Fill(dt);
                         return dt;
-                    
-                }
-
-
-            }
+                   }
+                 }
             catch (Exception ex)
             {
                 rpt = null;
@@ -53,9 +37,56 @@ namespace Sistema_Matricula.Controladores
             }
             return rpt;
         }
+        public DataTable verEstudiantes()
+        {
+            DataTable rpt = new DataTable();
+            try
 
+            { using (SqlConnection sqlcon = new SqlConnection(conexion.cn))
+                {
+                    SqlCommand cmd = new SqlCommand("rep_Estudiante", sqlcon);
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                         SqlDataAdapter da = new SqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        da.Fill(rpt); //debes invocar a rpt no dt
+                        return rpt;
 
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                rpt = null;
+                throw;
+            }
+            return rpt;
+        }
 
+        public DataTable verestudianteporgrupo()
+        {
+            DataTable rpt = new DataTable();
+            try
+            {
+                using (SqlConnection sqlcon = new SqlConnection(conexion.cn))
+                {
+                    SqlCommand cmd = new SqlCommand("rep_estudiante_por_grupo", sqlcon);
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        SqlDataAdapter da = new SqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        da.Fill(rpt);
+                        return rpt;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                rpt = null;
+                throw;
+            }
+            return rpt;
+        }
 
 
 

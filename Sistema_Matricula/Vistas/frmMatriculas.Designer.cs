@@ -56,9 +56,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panelbuscar.SuspendLayout();
             this.p_textos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datamatriculas)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelbuscar
@@ -162,7 +164,6 @@
             // 
             this.p_textos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(238)))));
             this.p_textos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.p_textos.Controls.Add(this.datamatriculas);
             this.p_textos.Controls.Add(this.label9);
             this.p_textos.Controls.Add(this.textanio);
             this.p_textos.Controls.Add(this.comoTurno);
@@ -179,12 +180,12 @@
             this.p_textos.Controls.Add(this.label4);
             this.p_textos.Controls.Add(this.label3);
             this.p_textos.Controls.Add(this.label2);
-            this.p_textos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.p_textos.Dock = System.Windows.Forms.DockStyle.Top;
             this.p_textos.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p_textos.Location = new System.Drawing.Point(0, 65);
+            this.p_textos.Location = new System.Drawing.Point(0, 0);
             this.p_textos.Margin = new System.Windows.Forms.Padding(2);
             this.p_textos.Name = "p_textos";
-            this.p_textos.Size = new System.Drawing.Size(1077, 422);
+            this.p_textos.Size = new System.Drawing.Size(1077, 193);
             this.p_textos.TabIndex = 2;
             // 
             // datamatriculas
@@ -196,12 +197,12 @@
             this.datamatriculas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Eliminar,
             this.Editar});
-            this.datamatriculas.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.datamatriculas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datamatriculas.GridColor = System.Drawing.Color.White;
-            this.datamatriculas.Location = new System.Drawing.Point(0, 205);
+            this.datamatriculas.Location = new System.Drawing.Point(0, 193);
             this.datamatriculas.Name = "datamatriculas";
             this.datamatriculas.ReadOnly = true;
-            this.datamatriculas.Size = new System.Drawing.Size(1073, 213);
+            this.datamatriculas.Size = new System.Drawing.Size(1077, 229);
             this.datamatriculas.TabIndex = 27;
             this.datamatriculas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datamatriculas_CellClick);
             this.datamatriculas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datamatriculas_CellContentClick_1);
@@ -399,12 +400,22 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Estudiante:";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.datamatriculas);
+            this.panel1.Controls.Add(this.p_textos);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 65);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1077, 422);
+            this.panel1.TabIndex = 3;
+            // 
             // frmMatriculas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1077, 487);
-            this.Controls.Add(this.p_textos);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelbuscar);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMatriculas";
@@ -416,6 +427,7 @@
             this.p_textos.ResumeLayout(false);
             this.p_textos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datamatriculas)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -449,5 +461,6 @@
         private System.Windows.Forms.DataGridView datamatriculas;
         private System.Windows.Forms.DataGridViewImageColumn Eliminar;
         private System.Windows.Forms.DataGridViewImageColumn Editar;
+        private System.Windows.Forms.Panel panel1;
     }
 }

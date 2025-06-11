@@ -328,6 +328,7 @@ D:\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matric
 D:\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_.AB225D56.Up2Date
 D:\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.exe
 D:\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.pdb
+C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.csproj.AssemblyReference.cache
 C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.Form1.resources
 C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.Properties.Resources.resources
 C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.Vistas.Form_login.resources
@@ -503,4 +504,3 @@ C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\bin\
 C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.exe
 C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.pdb
-C:\Users\ADMIN\Desktop\SistemaMatricula\Sistema_Matricula\Sistema_Matricula\obj\Debug\Sistema_Matricula.csproj.AssemblyReference.cache

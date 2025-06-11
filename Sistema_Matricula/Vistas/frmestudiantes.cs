@@ -20,7 +20,7 @@ public partial class frmestudiantes : Form
     {
         InitializeComponent();
         Buscar(textBox1.Text.Trim());
-
+            utilidades.Dtctualizar(dataalumno);
     }
 
     bool insertar()
@@ -155,7 +155,7 @@ public partial class frmestudiantes : Form
             //dataalumno.Dock = DockStyle.Fill;
     }
 
-    private void textBox1_TextChanged(object sender, EventArgs e)
+    public void textBox1_TextChanged(object sender, EventArgs e)
     {
             Buscar(textBox1.Text.Trim());
             //dataalumno.Dock = DockStyle.Bottom;

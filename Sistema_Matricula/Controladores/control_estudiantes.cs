@@ -112,5 +112,36 @@ namespace Sistema_Matricula.Controladores
             catch (Exception ex) { rpt.Columns.Clear(); }
             return rpt;
         }
+
+        //public DataTable verEstudiantes()
+        //{
+        //    DataTable rpt = new DataTable();
+        //    try
+        //    {
+        //        using (SqlConnection sqlcon = new SqlConnection(conexion.cn))
+        //        {
+        //            SqlCommand cmd = new SqlCommand("rep_Estudiante", sqlcon);
+        //            {
+                       
+        //                cmd.CommandType = CommandType.StoredProcedure;
+                        
+        //                SqlDataAdapter da = new SqlDataAdapter(cmd);
+        //                DataTable dt = new DataTable();
+        //                da.Fill(dt);
+        //                return rpt;
+
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        rpt = null;
+        //        throw;
+        //    }
+        //    return rpt;
+        //}
+
+
+
     }
 }

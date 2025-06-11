@@ -328,6 +328,7 @@
     <Compile Include="Controladores\control_estudiantes.cs" />
     <Compile Include="Controladores\Control_login.cs" />
     <Compile Include="Controladores\control_Matricula.cs" />
+    <Compile Include="Controladores\Control_sesion.cs" />
     <Compile Include="MatriculasDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -339,6 +340,7 @@
     <Compile Include="Modelos\Modelos_usuarios.cs" />
     <Compile Include="Modelos\modelo_estudiantes.cs" />
     <Compile Include="Modelos\modelo_reporte.cs" />
+    <Compile Include="Modelos\Modelo_sesion.cs" />
     <Compile Include="Modelos\utilidades.cs" />
     <Compile Include="Vistas\Form1.cs">
       <SubType>Form</SubType>

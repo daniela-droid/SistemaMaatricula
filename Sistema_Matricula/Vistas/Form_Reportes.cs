@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sistema_Matricula.Controladores;
 using Sistema_Matricula.Modelos;
+using Sistema_Matricula.Vistas;
 
 namespace Sistema_Matricula.Vistas
 {
@@ -18,6 +19,7 @@ namespace Sistema_Matricula.Vistas
         public Form_Reportes()
         {
             InitializeComponent();
+            utilidades.Dtctualizar(data_reporte);
         }
 
         private void Form_Reportes_Load(object sender, EventArgs e)
@@ -27,20 +29,30 @@ namespace Sistema_Matricula.Vistas
 
         private void button_rmatricula_Click(object sender, EventArgs e)
         {
+
+
             var reporte = new Controlador_Reporte();
             data_reporte.DataSource = reporte.VerMatriculas();
             utilidades.Dtctualizar(data_reporte);
+            utilidades.ButtonsActualizados();
+            
            
         }
 
         private void button_restudainte_Click(object sender, EventArgs e)
         {
 
+            var reporte = new Controlador_Reporte();
+            data_reporte.DataSource = reporte.verEstudiantes();
+           
+
         }
 
         private void buton_rgrupo_Click(object sender, EventArgs e)
         {
-
+            var reporte = new Controlador_Reporte();
+            data_reporte.DataSource = reporte.verestudianteporgrupo();
+            utilidades.Dtctualizar(data_reporte);
         }
 
         private void button4_Click(object sender, EventArgs e)

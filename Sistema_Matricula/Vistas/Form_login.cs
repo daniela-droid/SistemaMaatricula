@@ -19,11 +19,14 @@ namespace Sistema_Matricula.Vistas
         {
             InitializeComponent();
             textBox2.PasswordChar = '*';
+            textBox2.UseSystemPasswordChar = true;
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             textBox2.UseSystemPasswordChar = true;
+
         }
 
         private void Form_login_Load(object sender, EventArgs e)
@@ -50,6 +53,11 @@ namespace Sistema_Matricula.Vistas
         }
 
         private void texusuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void xrRichText1_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
         {
 
         }

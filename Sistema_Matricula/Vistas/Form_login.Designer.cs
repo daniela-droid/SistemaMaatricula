@@ -94,21 +94,18 @@
             // 
             this.textBox2.Font = new System.Drawing.Font("Tahoma", 12F);
             this.textBox2.Location = new System.Drawing.Point(74, 239);
-            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 38);
+            this.textBox2.Size = new System.Drawing.Size(277, 27);
             this.textBox2.TabIndex = 2;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox2.UseSystemPasswordChar = true;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // texusuario
             // 
             this.texusuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.texusuario.Location = new System.Drawing.Point(74, 174);
-            this.texusuario.Multiline = true;
             this.texusuario.Name = "texusuario";
-            this.texusuario.Size = new System.Drawing.Size(277, 39);
+            this.texusuario.Size = new System.Drawing.Size(277, 27);
             this.texusuario.TabIndex = 1;
             this.texusuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.texusuario.TextChanged += new System.EventHandler(this.texusuario_TextChanged);

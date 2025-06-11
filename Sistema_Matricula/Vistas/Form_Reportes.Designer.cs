@@ -29,6 +29,7 @@ namespace Sistema_Matricula.Vistas
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel_botones = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.buton_rgrupo = new System.Windows.Forms.Button();
@@ -62,7 +63,7 @@ namespace Sistema_Matricula.Vistas
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(228, 43);
             this.button4.TabIndex = 3;
-            this.button4.Text = "xd";
+            this.button4.Text = "Crear PDF";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -74,7 +75,7 @@ namespace Sistema_Matricula.Vistas
             this.buton_rgrupo.Name = "buton_rgrupo";
             this.buton_rgrupo.Size = new System.Drawing.Size(228, 43);
             this.buton_rgrupo.TabIndex = 2;
-            this.buton_rgrupo.Text = "Reporte Grupo";
+            this.buton_rgrupo.Text = "Reporte Estudiantes por Grupo";
             this.buton_rgrupo.UseVisualStyleBackColor = true;
             this.buton_rgrupo.Click += new System.EventHandler(this.buton_rgrupo_Click);
             // 
@@ -86,7 +87,7 @@ namespace Sistema_Matricula.Vistas
             this.button_restudainte.Name = "button_restudainte";
             this.button_restudainte.Size = new System.Drawing.Size(228, 43);
             this.button_restudainte.TabIndex = 1;
-            this.button_restudainte.Text = "Reporte Estudiante";
+            this.button_restudainte.Text = "Reporte General de Estudiante";
             this.button_restudainte.UseVisualStyleBackColor = true;
             this.button_restudainte.Click += new System.EventHandler(this.button_restudainte_Click);
             // 
@@ -98,7 +99,7 @@ namespace Sistema_Matricula.Vistas
             this.button_rmatricula.Name = "button_rmatricula";
             this.button_rmatricula.Size = new System.Drawing.Size(228, 43);
             this.button_rmatricula.TabIndex = 0;
-            this.button_rmatricula.Text = "Reporte Matricula";
+            this.button_rmatricula.Text = "Reporte General de Matricula";
             this.button_rmatricula.UseVisualStyleBackColor = true;
             this.button_rmatricula.Click += new System.EventHandler(this.button_rmatricula_Click);
             // 
@@ -115,7 +116,10 @@ namespace Sistema_Matricula.Vistas
             // 
             this.data_reporte.AllowUserToAddRows = false;
             this.data_reporte.AllowUserToDeleteRows = false;
-            this.data_reporte.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(149)))), ((int)(((byte)(200)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.data_reporte.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.data_reporte.BackgroundColor = System.Drawing.Color.White;
             this.data_reporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.data_reporte.Dock = System.Windows.Forms.DockStyle.Left;
             this.data_reporte.Location = new System.Drawing.Point(0, 0);
@@ -133,6 +137,7 @@ namespace Sistema_Matricula.Vistas
             this.Controls.Add(this.panel_data);
             this.Controls.Add(this.panel_botones);
             this.Name = "Form_Reportes";
+            this.ShowIcon = false;
             this.Text = "Form_Reportes";
             this.Load += new System.EventHandler(this.Form_Reportes_Load);
             this.panel_botones.ResumeLayout(false);

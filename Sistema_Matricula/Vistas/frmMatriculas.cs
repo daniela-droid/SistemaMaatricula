@@ -88,10 +88,10 @@ namespace Sistema_Matricula.Vistas
         void limpiarcampos()
         {
             texid.Clear();
-            combEstudiante.SelectedItem = 1;
-            comGrupo.SelectedItem = 1;
-            comDiaSemana.SelectedItem = 1;
-            comoTurno.SelectedItem = 1;
+            combEstudiante.SelectedItem = -1;
+            comGrupo.SelectedItem = -1;
+            comDiaSemana.SelectedItem = -1;
+            comoTurno.SelectedItem = -1;
             textanio.Clear();
            // comboidG.Items.Clear();
            // comboidestud.Items.Clear(); 
